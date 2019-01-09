@@ -9,7 +9,6 @@ class Dog
     @age = age
     
     @@all.push(self)
-    binding.pry
   end
   
   def self.all
